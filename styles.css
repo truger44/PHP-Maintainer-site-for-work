@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#room-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#room-list th, #room-list td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#equipment-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#building-name {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#equipment-details {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#equipment-details th, #equipment-details td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+#repair-list {
+    width: 100%;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+#add-repair, #print-qr {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+#add-repair {
+    display: block;
+    margin: 20px auto;
+}
+
+#print-qr {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+}
